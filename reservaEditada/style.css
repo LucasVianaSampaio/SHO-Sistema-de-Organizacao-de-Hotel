@@ -13,7 +13,7 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 
-a {
+button {
   all: unset;
   box-sizing: border-box;
 }
@@ -68,7 +68,7 @@ p + p {
   font-size: 1.7rem;
 }
 
-form a {
+form button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,12 +87,12 @@ form a {
   margin-top: 5rem;
 }
 
-form a:focus {
+form button:focus {
   outline: 2px solid black;
   border-radius: 0.4rem;
 }
 
-form a:hover {
+form button:hover {
   background: linear-gradient(
     103.66deg,
     rgba(156, 32, 158, 0.83) 0.02%,
